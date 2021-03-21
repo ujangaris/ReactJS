@@ -1,14 +1,14 @@
+const css = {
+    color: "red",
+    background: "blue",
+    fontSize: 50
+}
+
 function Kontak() {
     return (
         <div className="App">
             <h1 className="judul">Kontak Belajar React</h1>
-            <p style={
-                {
-                    color:"red",
-                    background:"blue",
-                    fontSize:50
-                }
-            }>Jakarta</p>
+            <p style={css}>Jakarta</p>
         </div>
     );
 }
