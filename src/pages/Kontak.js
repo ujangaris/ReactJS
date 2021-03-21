@@ -1,8 +1,14 @@
 function Kontak() {
     return (
         <div className="App">
-            <h1>Kontak Belajar React</h1>
-            <p>Jakarta</p>
+            <h1 className="judul">Kontak Belajar React</h1>
+            <p style={
+                {
+                    color:"red",
+                    background:"blue",
+                    fontSize:50
+                }
+            }>Jakarta</p>
         </div>
     );
 }
