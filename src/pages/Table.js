@@ -1,8 +1,9 @@
 function Table(props) {
     const menus = props.menu
+    const titel = props.titel
     return (
         <div className="App">
-            <h1>Menu Restoran</h1>
+            <h1>{titel}</h1>
             <div>
                 <table>
                     <tr>
