@@ -1,4 +1,4 @@
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
@@ -19,7 +19,10 @@ function Nav() {
                 <Link to="/siswa">
                     <li>Siswa</li>
                 </Link>
-               
+                <Link to="/menu">
+                    <li>Menu</li>
+                </Link>
+
             </ul>
         </div>
     );
