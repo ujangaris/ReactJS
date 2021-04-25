@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Kontak from './pages/Kontak';
 import Sejarah from './pages/Sejarah';
 import Tentang from './pages/Tentang';
+import Siswa from './pages/Siswa';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/kontak" component={Kontak} />
           <Route path="/sejarah" component={Sejarah} />
         <Route path="/tentang" component={Tentang} />
+          <Route path="/siswa" component={Siswa} />
         </Switch>
       </div>
     </BrowserRouter>
