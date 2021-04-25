@@ -20,6 +20,7 @@ function App() {
           <Route path="/sejarah" component={Sejarah} />
         <Route path="/tentang" component={Tentang} />
           <Route path="/siswa" component={Siswa} />
+           
         </Switch>
       </div>
     </BrowserRouter>

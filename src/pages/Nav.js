@@ -19,6 +19,7 @@ function Nav() {
                 <Link to="/siswa">
                     <li>Siswa</li>
                 </Link>
+               
             </ul>
         </div>
     );

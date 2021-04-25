@@ -1,7 +1,11 @@
+import Listsiswa from "./Listsiswa";
+
 function Siswa() {
+
+    const nama = ['joni', 'tya', 'eka']
     return (
         <div className="App">
-            <h1>Siswa Page</h1>
+            <Listsiswa judul={nama}/>
         </div>
     );
 }
