@@ -1,9 +1,22 @@
+import {useState } from 'react';
 function Tentang() {
+
+    const [count, setCount] = useState(0);
+    function tambah(){
+        setCount(count+1)
+    }
+    function kurang(){
+        if(count > 0){
+
+            setCount(count-1)
+        }
+    }
     return (
         <div className="App">
-            <h1>Tentang Belajar React</h1>
+            <h1>Tentang Belajar React : {count}</h1>
             <p>Isi Tentang Belajar React</p>
-            <button type="button" className="btn btn-primary">Button</button>
+            <button type="button" onClick={tambah} className="btn btn-primary">Tambah</button>
+            <button type="button" onClick={kurang}  className="btn btn-success">Kurang</button>
         </div>
     );
 }
