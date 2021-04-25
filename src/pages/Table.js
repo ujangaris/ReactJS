@@ -1,0 +1,25 @@
+function Table(props) {
+    const menus = props.menu
+    return (
+        <div className="App">
+            <h1>Menu Restoran</h1>
+            <div>
+                <table>
+                    <tr>
+                        <th>Menu</th>
+                        <th>Harga</th>
+                    </tr>
+                    {menus.map((data) =>(
+                        <tr key={data.idmenu}>
+                            <td>{data.menu}</td>
+                            <td>{data.harga}</td>
+                        </tr>
+                         
+                    ))}
+                </table>
+            </div>
+        </div>
+    );
+}
+
+export default Table;
